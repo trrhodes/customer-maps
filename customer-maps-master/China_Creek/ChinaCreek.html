@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="./resources/ol.css" />
+        <link rel="stylesheet" href="./resources/ol3-layerswitcher.css">
+        <link rel="stylesheet" href="./resources/qgis2web.css">
+        <style>
+        html, body {
+            background-color: #ffffff;
+        }
+        </style>
+<style>
+.tooltip {
+  position: relative;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  color: white;
+  padding: 4px 8px;
+  opacity: 0.7;
+  white-space: nowrap;
+}
+.tooltip-measure {
+  opacity: 1;
+  font-weight: bold;
+}
+.tooltip-static {
+  background-color: #ffcc33;
+  color: black;
+  border: 1px solid white;
+}
+.tooltip-measure:before,
+.tooltip-static:before {
+  border-top: 6px solid rgba(0, 0, 0, 0.5);
+  border-right: 6px solid transparent;
+  border-left: 6px solid transparent;
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  margin-left: -7px;
+  left: 50%;
+}
+.tooltip-static:before {
+  border-top-color: #ffcc33;
+}
+.measure-control {
+  top: 65px;
+  left: .5em;
+}
+.ol-touch .measure-control {
+  top: 80px;
+}
+</style>
+        <style>
+        html, body, #map {
+            width: 100%;
+            height: 90%;
+            padding: 0;
+            margin: 0;
+        }
+        </style>
+        <title>Pre-upgrade Survey</title>
+    </head>
+    <body>
+        <div id="map">
+            <div id="popup" class="ol-popup">
+                <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+                <div id="popup-content"></div>
+            </div>
+        </div>
+        <h1>China Creek DLS Pre-upgrade Survey</h1>
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border:none;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:5px 10px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:5px 10px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
+.tg .tg-2thk{background-color:#c0c0c0;text-align:center}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-ipa1{font-weight:bold;background-color:#c0c0c0;text-align:center}
+.tg .tg-i81m{background-color:#ffffff;text-align:center;vertical-align:top}
+.tg .tg-u1yq{font-weight:bold;background-color:#c0c0c0;text-align:center;vertical-align:top}
+.tg .tg-6nwz{font-size:14px;text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-i81m" rowspan="3"><img src="images/Legend.png" alt="Legend"></th>
+    <th class="tg-2thk"></th>
+    <th class="tg-u1yq">DOWNLOAD SPEED </th>
+    <th class="tg-u1yq">UPLOAD SPEED</th>
+    <th class="tg-baqh" rowspan="3"><img src="images/Iotatel_Logo_Shadow_Black.png" alt="Iotatel" style="width:350px;"></th>
+  </tr>
+  <tr>
+    <td class="tg-ipa1">MAX</td>
+    <td class="tg-6nwz">12.7 Mbps</td>
+    <td class="tg-6nwz">1.5 Mbps</td>
+  </tr>
+  <tr>
+    <td class="tg-ipa1">AVERAGE</td>
+    <td class="tg-6nwz">5.4 Mbps</td>
+    <td class="tg-6nwz">0.6 Mbps</td>
+  </tr>
+</table>
+<a href="downloads/China_Creek_Pre_Upgrade.kml">Click here to download a .kml file for Google Earth</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="downloads/RSSI_heatmap.tif">Click here to download a .tif of the heat map for Google Earth</a>
+
+        <script src="resources/qgis2web_expressions.js"></script>
+        <script src="resources/polyfills.js"></script>
+        <script src="./resources/ol.js"></script>
+        <script src="./resources/ol3-layerswitcher.js"></script>
+        <script src="layers/DataPoints1.js"></script>
+        <script src="styles/DataPoints1_style.js"></script>
+        <script src="./layers/layers.js" type="text/javascript"></script>
+        <script src="./resources/qgis2web.js"></script>
+        <script src="./resources/Autolinker.min.js"></script>
+    </body>
+</html>
