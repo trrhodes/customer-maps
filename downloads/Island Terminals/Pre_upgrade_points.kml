@@ -1,0 +1,989 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Pre_upgrade_points.shp</name>
+	<Schema name="Pre_upgrade_points" id="S_Pre_upgrade_points_IIIS">
+		<SimpleField type="int" name="ID"><displayName>&lt;b&gt;ID&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="Wireless_g"><displayName>&lt;b&gt;Wireless g&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="Island_Ter"><displayName>&lt;b&gt;Island Ter&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="TIMESTAMP"><displayName>&lt;b&gt;TIMESTAMP&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<StyleMap id="pointStyleMap">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="hlightPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>ID</b></td><td>$[Pre_upgrade_points/ID]</td></tr>
+  <tr><td><b>Wireless g</b></td><td>$[Pre_upgrade_points/Wireless_g]</td></tr>
+  <tr><td><b>Island Ter</b></td><td>$[Pre_upgrade_points/Island_Ter]</td></tr>
+  <tr><td><b>TIMESTAMP</b></td><td>$[Pre_upgrade_points/TIMESTAMP]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="normPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>ID</b></td><td>$[Pre_upgrade_points/ID]</td></tr>
+  <tr><td><b>Wireless g</b></td><td>$[Pre_upgrade_points/Wireless_g]</td></tr>
+  <tr><td><b>Island Ter</b></td><td>$[Pre_upgrade_points/Island_Ter]</td></tr>
+  <tr><td><b>TIMESTAMP</b></td><td>$[Pre_upgrade_points/TIMESTAMP]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<Folder id="layer 0">
+		<name>Pre_upgrade_points</name>
+		<Placemark>
+			<name>1</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Pre_upgrade_points_IIIS">
+					<SimpleData name="ID">1</SimpleData>
+					<SimpleData name="Wireless_g">-66</SimpleData>
+					<SimpleData name="Island_Ter">-60</SimpleData>
+					<SimpleData name="TIMESTAMP">2017-05-05 - 12:43:11</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.8458643296024,49.14039567583161,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Pre_upgrade_points_IIIS">
+					<SimpleData name="ID">2</SimpleData>
+					<SimpleData name="Wireless_g">-77</SimpleData>
+					<SimpleData name="Island_Ter">-67</SimpleData>
+					<SimpleData name="TIMESTAMP">2017-05-05 - 13:03:59</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.8465722651442,49.1402687738175,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Pre_upgrade_points_IIIS">
+					<SimpleData name="ID">3</SimpleData>
+					<SimpleData name="Wireless_g">-78</SimpleData>
+					<SimpleData name="Island_Ter">-73</SimpleData>
+					<SimpleData name="TIMESTAMP">2017-05-05 - 13:06:42</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.847142486017,49.1395302862387,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>4</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Pre_upgrade_points_IIIS">
+					<SimpleData name="ID">4</SimpleData>
+					<SimpleData name="Wireless_g">-81</SimpleData>
+					<SimpleData name="Island_Ter">-100</SimpleData>
+					<SimpleData name="TIMESTAMP">2017-05-05 - 13:08:21</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.8476507646253,49.13909778003492,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Pre_upgrade_points_IIIS">
+					<SimpleData name="ID">5</SimpleData>
+					<SimpleData name="Wireless_g">-64</SimpleData>
+					<SimpleData name="Island_Ter">-93</SimpleData>
+					<SimpleData name="TIMESTAMP">2017-05-05 - 13:11:21</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.849050458636,49.13872516252955,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>6</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Pre_upgrade_points_IIIS">
+					<SimpleData name="ID">6</SimpleData>
+					<SimpleData name="Wireless_g">-66</SimpleData>
+					<SimpleData name="Island_Ter">-100</SimpleData>
+					<SimpleData name="TIMESTAMP">2017-05-05 - 13:13:01</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.8498820272496,49.13854646035386,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Pre_upgrade_points_IIIS">
+					<SimpleData name="ID">7</SimpleData>
+					<SimpleData name="Wireless_g">-47</SimpleData>
+					<SimpleData name="Island_Ter">-100</SimpleData>
+					<SimpleData name="TIMESTAMP">2017-05-05 - 13:16:10</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.8499454782566,49.1378831165369,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Pre_upgrade_points_IIIS">
+					<SimpleData name="ID">8</SimpleData>
+					<SimpleData name="Wireless_g">-59</SimpleData>
+					<SimpleData name="Island_Ter">-100</SimpleData>
+					<SimpleData name="TIMESTAMP">2017-05-05 - 13:18:20</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.8500536886266,49.13742194422441,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>9</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Pre_upgrade_points_IIIS">
+					<SimpleData name="ID">9</SimpleData>
+					<SimpleData name="Wireless_g">-63</SimpleData>
+					<SimpleData name="Island_Ter">-87</SimpleData>
+					<SimpleData name="TIMESTAMP">2017-05-05 - 13:20:39</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.8500615676155,49.13690951657401,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Pre_upgrade_points_IIIS">
+					<SimpleData name="ID">10</SimpleData>
+					<SimpleData name="Wireless_g">-63</SimpleData>
+					<SimpleData name="Island_Ter">-87</SimpleData>
+					<SimpleData name="TIMESTAMP">2017-05-05 - 13:22:31</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.8498472423514,49.13650488019844,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>11</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Pre_upgrade_points_IIIS">
+					<SimpleData name="ID">11</SimpleData>
+					<SimpleData name="Wireless_g">-47</SimpleData>
+					<SimpleData name="Island_Ter">-100</SimpleData>
+					<SimpleData name="TIMESTAMP">2017-05-05 - 13:24:59</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.8486849238386,49.13604806647556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>12</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Pre_upgrade_points_IIIS">
+					<SimpleData name="ID">12</SimpleData>
+					<SimpleData name="Wireless_g">-64</SimpleData>
+					<SimpleData name="Island_Ter">-100</SimpleData>
+					<SimpleData name="TIMESTAMP">2017-05-05 - 13:34:14</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.8475697954407,49.13637890019366,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>13</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Pre_upgrade_points_IIIS">
+					<SimpleData name="ID">13</SimpleData>
+					<SimpleData name="Wireless_g">-73</SimpleData>
+					<SimpleData name="Island_Ter">-100</SimpleData>
+					<SimpleData name="TIMESTAMP">2017-05-05 - 13:37:05</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.8461638988217,49.13666883022444,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>14</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Pre_upgrade_points_IIIS">
+					<SimpleData name="ID">14</SimpleData>
+					<SimpleData name="Wireless_g">-74</SimpleData>
+					<SimpleData name="Island_Ter">-100</SimpleData>
+					<SimpleData name="TIMESTAMP">2017-05-05 - 13:38:53</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.8452874870261,49.1369891865637,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>15</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Pre_upgrade_points_IIIS">
+					<SimpleData name="ID">15</SimpleData>
+					<SimpleData name="Wireless_g">-86</SimpleData>
+					<SimpleData name="Island_Ter">-88</SimpleData>
+					<SimpleData name="TIMESTAMP">2017-05-05 - 13:40:48</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.8450807054749,49.13759167776367,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>16</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Pre_upgrade_points_IIIS">
+					<SimpleData name="ID">16</SimpleData>
+					<SimpleData name="Wireless_g">-72</SimpleData>
+					<SimpleData name="Island_Ter">-82</SimpleData>
+					<SimpleData name="TIMESTAMP">2017-05-05 - 13:42:58</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.8448068686983,49.13815301381903,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>17</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Pre_upgrade_points_IIIS">
+					<SimpleData name="ID">17</SimpleData>
+					<SimpleData name="Wireless_g">-79</SimpleData>
+					<SimpleData name="Island_Ter">-80</SimpleData>
+					<SimpleData name="TIMESTAMP">2017-05-05 - 13:45:19</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.8451745827904,49.13889254913581,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Pre_upgrade_points_IIIS">
+					<SimpleData name="ID">18</SimpleData>
+					<SimpleData name="Wireless_g">-84</SimpleData>
+					<SimpleData name="Island_Ter">-49</SimpleData>
+					<SimpleData name="TIMESTAMP">2017-05-05 - 13:47:29</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.8452900015971,49.13932119966405,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>19</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Pre_upgrade_points_IIIS">
+					<SimpleData name="ID">19</SimpleData>
+					<SimpleData name="Wireless_g">-83</SimpleData>
+					<SimpleData name="Island_Ter">-68</SimpleData>
+					<SimpleData name="TIMESTAMP">2017-05-05 - 13:52:51</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.8449616824498,49.14036692590364,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>20</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Pre_upgrade_points_IIIS">
+					<SimpleData name="ID">20</SimpleData>
+					<SimpleData name="Wireless_g">-70</SimpleData>
+					<SimpleData name="Island_Ter">-100</SimpleData>
+					<SimpleData name="TIMESTAMP">2017-05-05 - 14:00:08</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.8457969391009,49.13827698216694,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>21</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Pre_upgrade_points_IIIS">
+					<SimpleData name="ID">21</SimpleData>
+					<SimpleData name="Wireless_g">-68</SimpleData>
+					<SimpleData name="Island_Ter">-100</SimpleData>
+					<SimpleData name="TIMESTAMP">2017-05-05 - 14:01:36</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.8463685848972,49.13840698548513,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>22</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Pre_upgrade_points_IIIS">
+					<SimpleData name="ID">22</SimpleData>
+					<SimpleData name="Wireless_g">-68</SimpleData>
+					<SimpleData name="Island_Ter">-94</SimpleData>
+					<SimpleData name="TIMESTAMP">2017-05-05 - 14:04:25</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.8466321957519,49.13784799636265,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>23</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Pre_upgrade_points_IIIS">
+					<SimpleData name="ID">23</SimpleData>
+					<SimpleData name="Wireless_g">-68</SimpleData>
+					<SimpleData name="Island_Ter">-100</SimpleData>
+					<SimpleData name="TIMESTAMP">2017-05-05 - 14:19:14</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.8471560647002,49.13721847352492,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>24</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Pre_upgrade_points_IIIS">
+					<SimpleData name="ID">24</SimpleData>
+					<SimpleData name="Wireless_g">-74</SimpleData>
+					<SimpleData name="Island_Ter">-100</SimpleData>
+					<SimpleData name="TIMESTAMP">2017-05-05 - 14:20:53</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.8477806841245,49.13663312331697,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>25</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Pre_upgrade_points_IIIS">
+					<SimpleData name="ID">25</SimpleData>
+					<SimpleData name="Wireless_g">-65</SimpleData>
+					<SimpleData name="Island_Ter">-100</SimpleData>
+					<SimpleData name="TIMESTAMP">2017-05-05 - 14:22:25</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.8487054595014,49.13673969921567,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>26</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Pre_upgrade_points_IIIS">
+					<SimpleData name="ID">26</SimpleData>
+					<SimpleData name="Wireless_g">-78</SimpleData>
+					<SimpleData name="Island_Ter">-100</SimpleData>
+					<SimpleData name="TIMESTAMP">2017-05-05 - 14:27:03</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.8476862200758,49.13764553149142,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>27</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Pre_upgrade_points_IIIS">
+					<SimpleData name="ID">27</SimpleData>
+					<SimpleData name="Wireless_g">-63</SimpleData>
+					<SimpleData name="Island_Ter">-100</SimpleData>
+					<SimpleData name="TIMESTAMP">2017-05-05 - 14:29:12</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.8489793800971,49.13750706245107,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>28</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Pre_upgrade_points_IIIS">
+					<SimpleData name="ID">28</SimpleData>
+					<SimpleData name="Wireless_g">-64</SimpleData>
+					<SimpleData name="Island_Ter">-100</SimpleData>
+					<SimpleData name="TIMESTAMP">2017-05-05 - 14:31:52</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.8499356714299,49.13731214129286,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>29</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+					</Icon>
+				</IconStyle>
+				<LineStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff00ffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Pre_upgrade_points_IIIS">
+					<SimpleData name="ID">29</SimpleData>
+					<SimpleData name="Wireless_g">-70</SimpleData>
+					<SimpleData name="Island_Ter">-100</SimpleData>
+					<SimpleData name="TIMESTAMP">2017-05-05 - 14:34:39</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.8494329248777,49.13842659913855,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
